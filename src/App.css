@@ -1,1 +1,81 @@
 /* Глобальные стили */
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("woff2"),
+    url("./assets/fonts/Roboto-Regular.woff") format("woff"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anglecia Pro Tit";
+  src: local("Anglecia Pro Title Regular"), local("AngleciaProTitle-Regular"),
+    url("./assets/fonts/AngleciaProTitle-Regular.woff2") format("woff2"),
+    url("./assets/fonts/AngleciaProTitle-Regular.woff") format("woff"),
+    url("./assets/fonts/AngleciaProTitle-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Anglecia Pro Txt';
+  src: local('Anglecia Pro Text Regular'), local('AngleciaProText-Regular'),
+      url('./assets/fonts/AngleciaProText-Regular.woff2') format('woff2'),
+      url('./assets/fonts/AngleciaProText-Regular.woff') format('woff'),
+      url('./assets/fonts/AngleciaProText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Anglecia Pro Txt', "Anglecia Pro Tit", "Roboto";
+  width: 100vw;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: #4e7994;
+  color: #f1faee;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+a:active,
+a:hover,
+a:focus {
+  outline: 0;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 auto;
+}

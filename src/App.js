@@ -22,11 +22,8 @@ function App() {
         category && `&category=${category}`
       }${difficult && `&difficult=${difficult}`}&type=multiple`
     );
-    console.log(data);
     setQuestions(data.results);
   };
-  console.log(questions);
-
 
   return (
     <div className="app">
