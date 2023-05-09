@@ -41,8 +41,8 @@ body {
   width: 100vw;
   margin: 0 auto;
   overflow-x: hidden;
-  background-color: #4e7994;
-  color: #f1faee;
+  background-color: var(--app-bg);
+  color: var(--app-fonts);
 }
 
 .app {
@@ -78,4 +78,38 @@ a:focus {
   flex-direction: column;
   align-items: center;
   flex: 1 0 auto;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes move-left {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 800px) {
+  .section {
+    width: 80%;
+  }
 }

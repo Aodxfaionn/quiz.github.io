@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import "./App.css";
+import { useTheme } from "./utils/use-theme";
 import Header from "./views/Header/Header";
 import Footer from "./views/Footer/Footer";
 import Main from "./views/Main/Main";
 import Quiz from "./views/Quiz/Quiz";
 import Result from "./views/Result/Result";
+import BtnToggle from "./components/BtnToggle/BtnToggle";
 
 function App() {
   const [questions, setQuestions] = useState();
@@ -43,7 +45,9 @@ function App() {
             }
           />
           <Route path="result" element={<Result score={score} />} />
+          <Route path="result" element={<Result score={score} />} />
         </Routes>
+        <BtnToggle />
         <Footer />
       </BrowserRouter>
     </div>
