@@ -1,0 +1,33 @@
+.toggle {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 45vh;
+  gap: 1px;
+}
+
+.btnToggle {
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  transition: 0.3s all;
+}
+
+.btnToggle:first-of-type {
+  border-radius: 0 10px 0 0;
+}
+
+.btnToggle:last-of-type {
+  border-radius: 0 0 10px 0;
+}
+
+.btnToggle:hover {
+  transform: translate(-10px);
+}
+
+@media (max-width: 700px) {
+    .toggle {
+        top: 110px;
+    }
+}

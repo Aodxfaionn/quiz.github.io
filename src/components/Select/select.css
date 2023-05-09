@@ -1,0 +1,38 @@
+.field {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 30px;
+  font-size: 18px;
+  animation: move-right 1.5s;
+}
+
+.field__name {
+  width: 25%;
+}
+
+.field__select {
+  width: 70%;
+  height: 50px;
+  background-color: transparent;
+  background-color: var(--header-footer-bg);
+  color: var(--app-fonts);
+  outline: 0;
+  transition: 1.5s all ease;
+}
+
+.field:nth-of-type(2) {
+  animation: move-left 0.8s;
+}
+
+@media (max-width: 800px) {
+  .field {
+    flex-direction: column;
+    width: 100%;
+  }
+  .field__name,
+  .field__select {
+    width: 100%;
+  }
+}

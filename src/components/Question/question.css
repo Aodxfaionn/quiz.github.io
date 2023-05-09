@@ -1,0 +1,101 @@
+.question {
+  width: 100%;
+}
+
+.question__number {
+  text-align: center;
+  margin: 30px auto;
+  font-family: "Anglecia Pro Tit";
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.question__text {
+  font-family: "Anglecia Pro Tit";
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 130%;
+  letter-spacing: 3px;
+  font-size: 20px;
+  padding: 20px 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.questions__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px auto;
+}
+
+.questions__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: #f1faee;
+  color: black;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  text-align: center;
+  border: 0;
+}
+
+.questions__list-item:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  border: 1px solid #e63946;
+  transition: 0.3s all ease;
+}
+
+.questions__list-item:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.good {
+  background-color: #00ff7f;
+}
+
+.good:after {
+  content: none;
+}
+
+.wrong {
+  background: repeating-linear-gradient(
+    -60deg,
+    red 0,
+    red 1px,
+    transparent 1px,
+    transparent 5px
+  );
+  color: #f1faee;
+}
+
+.wrong:after {
+  content: none;
+  border: 1px solid #e63946;
+}
+
+.questions__btns {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  .question__text {
+    width: 100%;
+  }
+}

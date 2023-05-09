@@ -1,0 +1,7 @@
+.error {
+  text-align: center;
+  width: 25%;
+  margin: 30px auto;
+  border-bottom: #e63946 solid 3px;
+  padding-bottom: 5px;
+}

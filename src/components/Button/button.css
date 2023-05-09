@@ -1,0 +1,30 @@
+.btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  color: #f1faee;
+  font-size: 20px;
+  border: 0;
+  position: relative;
+  letter-spacing: 1px;
+  transition: 0.3s all ease;
+  border: 1px solid #f1faee;
+  background-color: transparent;
+}
+
+.btn:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.3s all ease;
+  background-color: #e63946;
+}
+
+.btn:hover:after {
+  top: 0px;
+  left: 0px;
+}

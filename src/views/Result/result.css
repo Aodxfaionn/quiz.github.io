@@ -1,0 +1,58 @@
+.result {
+  justify-content: center;
+}
+
+.result__text {
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+  left: 100px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  animation: move-right 2s ease;
+}
+
+.result__congratulate {
+  letter-spacing: 1px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  width: 65%;
+  max-width: 600px;
+  min-width: 300px;
+  text-align: center;
+  padding: 15px 30px 60px;
+  background-color: #e63946;
+  transform: rotate(352deg);
+  font-size: 40px;
+  line-height: 130%;
+  font-family: "Anglecia Pro Tit";
+  margin: 30px 100px 0 0;
+  animation: opacity 2s ease-in;
+  position: relative;
+}
+
+@media (max-width: 800px) {
+  .result__text {
+    left: 0;
+    bottom: 0;
+  }
+  .result__congratulate {
+    margin: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .result__text {
+    font-size: 20px;
+  }
+  .result__congratulate {
+    font-size: 30px;
+  }
+}
