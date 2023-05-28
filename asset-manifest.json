@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/quiz.github.io/static/css/main.bbbf06d6.css",
-    "main.js": "/quiz.github.io/static/js/main.6c2e72f6.js",
+    "main.css": "/quiz.github.io/static/css/main.ad2301c9.css",
+    "main.js": "/quiz.github.io/static/js/main.c27123f5.js",
     "static/media/Roboto-Regular.ttf": "/quiz.github.io/static/media/Roboto-Regular.25e40da956314b12d333.ttf",
     "static/media/AngleciaProTitle-Regular.ttf": "/quiz.github.io/static/media/AngleciaProTitle-Regular.e920e38eb000ead09af9.ttf",
     "static/media/AngleciaProText-Regular.ttf": "/quiz.github.io/static/media/AngleciaProText-Regular.7f45692d31b99163dc83.ttf",
@@ -11,11 +11,11 @@
     "static/media/AngleciaProTitle-Regular.woff2": "/quiz.github.io/static/media/AngleciaProTitle-Regular.f50aa55ba9d34dbbbf44.woff2",
     "static/media/AngleciaProText-Regular.woff2": "/quiz.github.io/static/media/AngleciaProText-Regular.a19c0c8bc57891dce118.woff2",
     "index.html": "/quiz.github.io/index.html",
-    "main.bbbf06d6.css.map": "/quiz.github.io/static/css/main.bbbf06d6.css.map",
-    "main.6c2e72f6.js.map": "/quiz.github.io/static/js/main.6c2e72f6.js.map"
+    "main.ad2301c9.css.map": "/quiz.github.io/static/css/main.ad2301c9.css.map",
+    "main.c27123f5.js.map": "/quiz.github.io/static/js/main.c27123f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbbf06d6.css",
-    "static/js/main.6c2e72f6.js"
+    "static/css/main.ad2301c9.css",
+    "static/js/main.c27123f5.js"
   ]
 }
