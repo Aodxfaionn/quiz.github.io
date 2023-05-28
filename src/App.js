@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Route, HashRouter, BrowserRouter, Routes } from "react-router-dom";
 import "./App.css";
 import { useTheme } from "./utils/use-theme";
 import Header from "./views/Header/Header";
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="app">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Main fetchQuestions={fetchQuestions} />} />
@@ -49,7 +49,7 @@ function App() {
         </Routes>
         <BtnToggle />
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
