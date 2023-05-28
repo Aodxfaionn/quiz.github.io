@@ -3,12 +3,14 @@ html[data-theme="light"] {
   --app-bg: #EAE7DC;
   --header-footer-bg: #D8C3A5;
   --app-fonts: #5c340c;
+  --btn-wrong: #000;
 }
 /* Blue */
 html[data-theme="blue"] {
   --app-bg: #4e7994;
   --header-footer-bg: #457b9d;
   --app-fonts: #f1faee;
+  --btn-wrong: #f1faee;
 }
 
 /* Dark */
@@ -16,4 +18,5 @@ html[data-theme="dark"] {
   --app-bg: #2C3531;
   --header-footer-bg: #116466;
   --app-fonts: #D1E8E2;
+  --btn-wrong: #f1faee;
 }

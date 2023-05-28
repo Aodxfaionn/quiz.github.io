@@ -79,7 +79,7 @@
     transparent 1px,
     transparent 5px
   );
-  color: #f1faee;
+  color: var(--btn-wrong);
 }
 
 .wrong:after {
