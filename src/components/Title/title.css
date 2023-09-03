@@ -2,8 +2,7 @@
   font-family: "Anglecia Pro Tit";
   margin-bottom: 30px;
   font-size: 40px;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
-  letter-spacing: 5px;
+  font-weight: 600;
   text-align: center;
   animation: opacity 1s ease-in;
 }

@@ -16,9 +16,7 @@
 .footer__text {
   width: min-content;
   line-height: 100%;
-  letter-spacing: 3px;
-  text-shadow: 2px 5px 3px rgb(0 0 0 / 20%),
-    0px -5px 35px rgba(255, 255, 255, 0.3);
+  font-weight: 600;
 }
 
 @media (max-width: 450px) {

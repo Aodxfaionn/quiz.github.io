@@ -4,7 +4,7 @@ import "./btnToggle.css";
 import { useTheme } from "../../utils/use-theme";
 
 const BtnToggle = () => {
-  const { theme, setTheme } = useTheme("light");
+  const { theme, setTheme } = useTheme();
   const toggleLightTheme = () => {
     setTheme("light");
   };

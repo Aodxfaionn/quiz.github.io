@@ -13,7 +13,7 @@ import BtnToggle from "./components/BtnToggle/BtnToggle";
 function App() {
   const [questions, setQuestions] = useState();
   const [score, setScore] = useState(0);
-
+  const { theme, setTheme } = useTheme("light");
   useEffect(() => {
     fetchQuestions();
   }, []);
