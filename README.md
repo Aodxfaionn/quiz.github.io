@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/m8CQrSn/image.jpg" alt="Демо проекта"/>
+<img src="https://i.ibb.co/C25xpWj/image.jpg" alt="Демо проекта"/>
 <p>Quiz app</p>
 <p>Ссылка на проект: https://aodxfaionn.github.io/quiz.github.io/ </p>
 <p>Функционал: приложение для игры в Квиз с выбором категории и одного их трех уровней сложности. Вопросы приходят по API. На выбор пользователю доступны три цветовые темы.</p>
